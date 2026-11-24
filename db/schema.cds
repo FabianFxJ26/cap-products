@@ -53,7 +53,7 @@ type Dec  : Decimal(16, 2); //Tipo por referencia
 
 entity Products {
     key ID               : UUID;
-        Name             : String; 
+        Name             : String not null; //Restriccion campo no nulo 
         Description      : String;
         ImageUrl         : String;
         ReleaseDate      : DateTime default $now; //Valor predeterminado datetime del momento
