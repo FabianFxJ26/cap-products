@@ -53,10 +53,10 @@ type Dec  : Decimal(16, 2); //Tipo por referencia
 
 entity Products {
     key ID               : UUID;
-        Name             : String;
+        Name             : String; 
         Description      : String;
         ImageUrl         : String;
-        ReleaseDate      : DateTime;
+        ReleaseDate      : DateTime default $now; //Valor predeterminado datetime del momento
         DiscontinuedDate : DateTime;
         Price            : Decimal(16, 2); //Decimal con 16 caracteres y dos decimales
         Height           : type of Price; //Decimal(16, 2);
