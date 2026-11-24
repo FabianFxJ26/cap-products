@@ -3,6 +3,7 @@ using {com.logali as logali} from '../db/schema';
 service CatalogService {
     entity Products as projection on logali.Products;
     entity Suppliers as projection on logali.Suppliers;
+    entity Suppliers_01 as projection on logali.Suppliers_01;
     entity Categories as projection on logali.Categories;
     entity StockAvailability as projection on logali.StockAvailability;
     entity Currencies as projection on logali.Currencies;

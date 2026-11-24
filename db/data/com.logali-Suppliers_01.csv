@@ -1,0 +1,5 @@
+ID,Name,address_Street,address_City,address_State,address_PostalCode,address_Country,Email,Phonne,Fax
+2eca06a1-7ca0-42f6-8758-59b01558439d,Tech Distribution Inc.,100 Market Street,San Francisco,CA,94105,USA,sales@techdistribution.example,+1-415-555-0101,+1-415-555-0191
+acc67049-3239-4e96-a3f1-0eeb41a75f5d,Global Components,25 King Street,London,LN,SW1A1,GBR,contact@globalcomponents.example,+44-20-5555-0102,+44-20-5555-0192
+037f817e-a788-4dd4-a2d2-53c1bacc943a,Andes Technology SAS,Carrera 15 # 93-60,Bogota,CU,11022,COL,ventas@andestec.example,+57-601-555-0103,+57-601-555-0193
+f1f06118-190c-4616-9f59-2c07c1b1241b,Euro Office Supplies,8 Rue de Rivoli,Paris,ID,75001,FRA,info@eurooffice.example,+33-1-5555-0104,+33-1-5555-0194

@@ -1,5 +1,13 @@
 namespace com.logali;
 
+type Address { //Tipo Personalizado Estructurado en este caso lo uso para la Entity Suppliers_01
+    Street     : String;
+    City       : String;
+    State      : String(2);
+    PostalCode : String(5);
+    Country    : String(3);
+};
+
 entity Products {
     key ID               : UUID;
         Name             : String;
@@ -25,6 +33,15 @@ entity Suppliers {
         Email      : String;
         Phonne     : String;
         Fax        : String;
+};
+
+entity Suppliers_01 {
+    key ID      : UUID;
+        Name    : String;
+        Address : Address;
+        Email   : String;
+        Phonne  : String;
+        Fax     : String;
 };
 
 entity Categories {
@@ -65,6 +82,7 @@ entity ProductReviews {
 };
 
 entity SalesData {
+    key ID           : UUID;
     key DeliveryDate : DateTime;
         Revenue      : Decimal(16, 2);
 }
