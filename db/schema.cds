@@ -1,11 +1,32 @@
 namespace com.logali;
 
+type Name              : String(50);
+
 type Address { //Tipo Personalizado Estructurado en este caso lo uso para la Entity Suppliers_01
     Street     : String;
     City       : String;
     State      : String(2);
     PostalCode : String(5);
     Country    : String(3);
+};
+
+type EmailAddresses_01 : array of {
+    kind  : String;
+    email : String;
+}; //Tipo Matriz
+
+type EmailAddresses_02 {
+    kind  : String;
+    email : String;
+}; //Tipo Estructurado para convertirlo en matriz despues
+
+entity Emails {
+    email_01 : EmailAddresses_01; //Primera forma de definir tipo matriz
+    email_02 : many EmailAddresses_02; //Segunda forma de definir tipo matriz
+    email_03 : many {
+        kind  : String;
+        email : String;
+    } //Tercera forma de definir tipo matriz
 };
 
 entity Products {
