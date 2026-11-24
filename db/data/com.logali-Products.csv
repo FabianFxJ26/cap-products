@@ -1,0 +1,6 @@
+ID,Name,Description,ImageUrl,ReleaseDate,DiscontinuedDate,Price,Height,Width,Depth,Quantity
+8b3c1c1d-20cb-491d-94ea-2c8d07df31a0,Laptop Pro 14,14-inch business laptop,https://example.com/images/laptop-pro-14.jpg,2025-01-15T00:00:00Z,,1299.99,1.80,31.20,22.10,25.00
+dbc2ccdc-3397-4f5f-9c1e-c1e48e3cc1a8,Wireless Mouse,Ergonomic wireless mouse,https://example.com/images/wireless-mouse.jpg,2024-06-01T00:00:00Z,,29.90,4.00,6.50,11.00,150.00
+7d8b1e97-9efd-4dab-8d36-512bd2dce02c,USB-C Hub,Multiport USB-C adapter,https://example.com/images/usb-c-hub.jpg,2024-09-10T00:00:00Z,,49.50,1.50,4.00,10.00,80.00
+3114f451-1281-469a-b25d-c9d25a69a7a1,Monitor 27,27-inch UHD monitor,https://example.com/images/monitor-27.jpg,2025-03-20T00:00:00Z,,349.00,45.00,61.00,18.00,40.00
+eb201b52-51a7-482a-9362-c9ab4405d38a,Mechanical Keyboard,Backlit mechanical keyboard,https://example.com/images/mechanical-keyboard.jpg,2023-11-05T00:00:00Z,2026-01-01T00:00:00Z,89.99,4.00,14.00,44.00,0.00

@@ -14,7 +14,7 @@ entity Products {
         Quantity         : Decimal(16, 2);
 };
 
-entity Supplier {
+entity Suppliers {
     key ID         : UUID;
         Name       : String;
         Street     : String;
@@ -27,12 +27,12 @@ entity Supplier {
         Fax        : String;
 };
 
-entity Categorie {
+entity Categories {
     key ID   : String(1);
         Name : String;
 };
 
-entity StockAvailabiluty {
+entity StockAvailability {
     key ID          : Integer;
         Description : String;
 };
@@ -42,7 +42,7 @@ entity Currencies {
         Description : String;
 };
 
-entity UnitOfMausres {
+entity UnitOfMeasures {
     key ID          : String(2);
         Description : String;
 };
@@ -58,7 +58,7 @@ entity Months {
         ShortDescription : String(3);
 };
 
-entity ProductReview {
+entity ProductReviews {
     key Name    : String;
         Rating  : Integer;
         Comment : String;
