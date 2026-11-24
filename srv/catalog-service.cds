@@ -12,4 +12,5 @@ service CatalogService {
     entity Months as projection on logali.Months;
     entity ProductReviews as projection on logali.ProductReviews;
     entity SalesData as projection on logali.SalesData;
+    //entity Car as projection on logali.Car; //Ejemplo entidad con elementos virtuales
 }

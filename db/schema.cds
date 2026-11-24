@@ -49,11 +49,19 @@ type Address { //Tipo Personalizado Estructurado en este caso lo uso para la Ent
 //     };
 // };
 
+// entity Car {
+//     key ID         : UUID;
+//         name       : String;
+//         virtual discount_1 : Decimal; //Elemento Virtual no se almacena capa persistencia solo tiempo de ejecucion
+//         @Core.Computed: false //Annotation es automaticamente con true para no permitirle al usuario enviar datos por ej. post sobre la entidad car; al cambiar el valor a false le permito enviar datos
+//         virtual discount_2 : Decimal; //Elemento Virtual no se almacena capa persistencia solo tiempo de ejecucion
+// }
+
 type Dec  : Decimal(16, 2); //Tipo por referencia
 
 entity Products {
     key ID               : UUID;
-        Name             : String not null; //Restriccion campo no nulo 
+        Name             : String not null; //Restriccion campo no nulo
         Description      : String;
         ImageUrl         : String;
         ReleaseDate      : DateTime default $now; //Valor predeterminado datetime del momento
