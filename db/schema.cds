@@ -29,6 +29,26 @@ type Address { //Tipo Personalizado Estructurado en este caso lo uso para la Ent
 //     } //Tercera forma de definir tipo matriz
 // };
 
+// type Gender : String enum {
+//     male;
+//     female;
+// }; //Enumeracion tienen el proposito de determinar que posibles valores se le puede asignar a una columna que usa un tipo enum
+
+// entity Order {
+//     clientGender : Gender;
+//     status       : Integer enum {
+//         submitted = 1;
+//         fullfiler = 2;
+//         shipped = 3;
+//         cancel = -1;
+//     };
+//     priority     : String @assert.range enum {
+//         high;
+//         medim;
+//         low;
+//     };
+// };
+
 type Dec  : Decimal(16, 2); //Tipo por referencia
 
 entity Products {
@@ -47,7 +67,7 @@ entity Products {
 
 entity Suppliers {
     key ID         : UUID;
-        Name       : type of Products : Name; //Tipo por referencia columna Name de products //String;
+        Name       : type of Products : Name; //Tipo por referencia columna Name de products linea 36//String;
         Street     : String;
         City       : String;
         State      : String(2);
